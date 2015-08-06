@@ -1,0 +1,38 @@
+{
+  "name": "ohms-law",
+  "version": "1.0.0",
+  "description": "Ohm's Law is made from 3 mathematical equations that shows the relationship between electric voltage, current and resistance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js | faucet",
+    "lint": "standard *.js | standard-tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisbuttery/ohms-law.git"
+  },
+  "keywords": [
+    "ohms",
+    "law",
+    "voltage",
+    "current",
+    "resistance",
+    "ohms",
+    "ohm"
+  ],
+  "author": "Chris Buttery <info@chrisbuttery.com> (http://www.chrisbuttery.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrisbuttery/ohms-law/issues"
+  },
+  "homepage": "https://github.com/chrisbuttery/ohms-law",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "standard": "^5.0.2",
+    "standard-tap": "^1.0.1",
+    "tape": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=0.12.1"
+  }
+}
