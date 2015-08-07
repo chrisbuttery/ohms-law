@@ -34,3 +34,10 @@ var current = ohmsLaw.getCurrent()
 ## Contributing
 
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
+
+[npm-image]: https://img.shields.io/npm/v/brick-router.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/brick-router
+[travis-image]: https://img.shields.io/travis/yoshuawuyts/brick-router.svg?style=flat-square
+[travis-url]: https://travis-ci.org/yoshuawuyts/brick-router
+[standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
+[standard-url]: https://github.com/feross/standard
