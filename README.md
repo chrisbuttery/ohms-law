@@ -2,8 +2,8 @@
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
-[![js-standard-style][standard-image]][standard-url]
 [![Test coverage][coveralls-image]][coveralls-url]
+[![js-standard-style][standard-image]][standard-url]
 
 Ohm's Law is made from 3 mathematical equations that shows the relationship between electric voltage, current and resistance.
 
