@@ -3,6 +3,7 @@
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![js-standard-style][standard-image]][standard-url]
+[![Test coverage][coveralls-image]][coveralls-url]
 
 Ohm's Law is made from 3 mathematical equations that shows the relationship between electric voltage, current and resistance.
 
@@ -39,3 +40,5 @@ var current = ohmsLaw.getCurrent()
 [travis-url]: https://travis-ci.org/chrisbuttery/ohms-law
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [standard-url]: https://github.com/feross/standard
+[coveralls-image]: https://img.shields.io/coveralls/chrisbuttery/ohms-law.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/chrisbuttery/ohms-law?branch=master
