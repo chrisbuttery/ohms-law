@@ -1,40 +1,58 @@
 'use strict'
 
+/**
+ * validateParams
+ * Ensure params are provided and are type Number
+ */
+
+function validateParams () {
+  if (typeof arguments[0] !== 'number' || typeof arguments[1] !== 'number') {
+    throw new TypeError('params should be numbers')
+  }
+
+  if (arguments[0] == null || arguments[1] == null) {
+    throw new TypeError('params are required')
+  }
+}
+
 module.exports = {
 
   /**
    * getVoltage
    * Calculate voltage by passing in `current` & `resistance`
-   * @param  {Number} current
-   * @param  {Number} resistance
+   * @param  {Number} c: current
+   * @param  {Number} r: resistance
    * @return {Number}
    */
 
-  getVoltage: function (current, resistance) {
-    return current * resistance
+  getVoltage: function (c, r) {
+    validateParams(c, r)
+    return c * r
   },
 
   /**
    * getResistance
    * Calculate resistance by passing in `voltage` & `current`
-   * @param  {Number} voltage
-   * @param  {Number} current
+   * @param  {Number} v: voltage
+   * @param  {Number} c: current
    * @return {Number}
    */
 
-  getResistance: function (voltage, current) {
-    return voltage / current
+  getResistance: function (v, c) {
+    validateParams(v, c)
+    return v / c
   },
 
   /**
    * getCurrent
    * Calculate current by passing in `voltage` & `resistance`
-   * @param  {Number} voltage
-   * @param  {Number} resistance
+   * @param  {Number} v: voltage
+   * @param  {Number} r: resistance
    * @return {Number}
    */
 
-  getCurrent: function (voltage, resistance) {
-    return voltage / resistance
+  getCurrent: function (v, r) {
+    validateParams(v, r)
+    return v / r
   }
 }
