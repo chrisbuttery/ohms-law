@@ -1,6 +1,6 @@
 {
   "name": "ohms-law",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ohm's Law is made from 3 mathematical equations that shows the relationship between electric voltage, current and resistance.",
   "main": "index.js",
   "scripts": {
@@ -34,5 +34,10 @@
   },
   "engines": {
     "node": ">=0.12.1"
-  }
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "README.md"
+  ]
 }
