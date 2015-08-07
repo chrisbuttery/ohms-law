@@ -33,9 +33,9 @@ var current = ohmsLaw.getCurrent()
 % npm test
 ```
 
-[npm-image]: https://img.shields.io/npm/v/brick-router.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/brick-router
-[travis-image]: https://img.shields.io/travis/yoshuawuyts/brick-router.svg?style=flat-square
-[travis-url]: https://travis-ci.org/yoshuawuyts/brick-router
+[npm-image]: https://img.shields.io/npm/v/ohms-law.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/ohms-law
+[travis-image]: https://img.shields.io/travis/chrisbuttery/ohms-law.svg?style=flat-square
+[travis-url]: https://travis-ci.org/chrisbuttery/ohms-law
 [standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square
 [standard-url]: https://github.com/feross/standard
