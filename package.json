@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "tape test.js | faucet",
+    "test-cov": "npm run lint && cover run test.js",
     "lint": "standard *.js | standard-tap"
   },
   "repository": {
